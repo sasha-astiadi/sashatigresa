@@ -23,7 +23,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 input:focus,
@@ -850,7 +850,7 @@ display: inline;
   }
   .pic-frame {
     position: relative;
-    display: contents;
+    display: block;
     float: center;
     padding-bottom: 25px;
     }
