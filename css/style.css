@@ -26,6 +26,8 @@ img {
   max-width: 80%;
 }
 
+
+
 input:focus,
 select:focus,
 button:focus,
@@ -154,7 +156,17 @@ ol {
 }
 
 .site-btn.btn-fade {
+  display: inline-block;
+  font-size: 14px;
+  min-width: 140px;
+  text-align: center;
+  padding: 15px 10px;
+  position: relative;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
   background-color: #979797;
+
 }
 
 .site-btn.btn-line {
@@ -388,6 +400,7 @@ ol {
 /*------------------------
     Portfolio Section
 --------------------------*/
+
 .portfolio-section {
   overflow: hidden;
 }
@@ -481,22 +494,6 @@ ol {
   display: block;
 }
 
-.img-popup-warp .mfp-content {
-  opacity: 0;
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.img-popup-warp.mfp-ready .mfp-content {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
 
 /*------------------------
     Footer Section
