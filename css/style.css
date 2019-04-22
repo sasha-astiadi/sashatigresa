@@ -793,8 +793,7 @@ display: inline;
   }
 
   .pic-frame {
-    position: relative;
-    display: contents;
+    position: relative;=
     float: center;
     max-width: 70%;
     padding-bottom: 25px;
