@@ -18,7 +18,7 @@ h6 {
 
 p {
   font-size: 18px;
-  color: #979797;
+  color: #000;
   line-height: 1.2;
 }
 
@@ -69,7 +69,6 @@ ol {
 
 .section-title {
   font-size: 50px;
-  padding-bottom: 10px;
 }
 
 .section-title span {
@@ -355,7 +354,7 @@ ol {
 --------------------------*/
 .header-section {
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -394,20 +393,18 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 60px 0 20px 0;
+  padding: 60px 0 40px 0;
 }
-
 /*------------------------
     Portfolio Section
 --------------------------*/
-
 .portfolio-section {
   overflow: hidden;
 }
 
 .portfolio-filter {
   list-style: none;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 .portfolio-filter li {
@@ -522,23 +519,13 @@ ol {
 --------------------------*/
 .pic-frame {
   position: relative;
-  padding-left:60px;
-  padding-bottom: 25px;
   display: inline-block;
-  float: right;
 }
 
-
-.pic-frame:after {
-  position: absolute;
-  content: "";
-  width: calc(100% - 25px);
-  height: calc(100% - 25px);
-  bottom: 0;
-  left: 0;
-  border: 0px solid #000;
-  z-index: 1;
+.pic-frame img {
+  padding-top:10px;
 }
+
 
 .page-section {
   text-align: left;
@@ -664,7 +651,7 @@ display: inline;
 
   .pic-frame img {
     max-width: 90%;
-    padding-top: 40px;
+    padding-top: 70px;
   }
 
   .page-section {
@@ -673,7 +660,7 @@ display: inline;
 
   .page-section p {
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 24px;
     padding-right: 20px;
   }
 
@@ -798,21 +785,23 @@ display: inline;
     padding-left: 85px;
   }
 
-  .pic-frame img {
-    max-width: 50%;
-    padding-bottom: 20px;
-  }
 
-.page-section {
-  text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  }
+    .pic-frame {
+      max-width: 70%;
+      padding: 0 20px;
+      align-items: center;
+    }
 
-  .page-section p {
-    font-size: 17px;
-    line-height: 1.2em;
-  }
+    .page-section {
+      text-align: center;
+      padding-right: 20px;
+      padding-left: 20px;
+      }
+
+    .page-section p {
+      font-size: 20px;
+      line-height: 1.2em;
+    }
 
   .content-section {
     padding: 0 10px;
@@ -837,24 +826,19 @@ display: inline;
     padding: 10px;
   }
 }
-
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
 
   .section-title {
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
   }
-  .pic-frame {
-    position: relative;
-    display: block;
-    float: center;
-    padding-bottom: 25px;
-    }
 
-  .pic-frame img {
-    max-width: 50%;
-    padding-bottom: 20px;
+  .pic-frame {
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+    padding: 0 30px;
   }
 
   .page-section {
@@ -864,7 +848,7 @@ display: inline;
     }
 
   .page-section p {
-    font-size: 13px;
+    font-size: 14.5px;
     line-height: 1.2em;
   }
 
@@ -893,4 +877,5 @@ display: inline;
     max-width: 70%;
     padding: 10px;
   }
+
 }
