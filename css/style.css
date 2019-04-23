@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: 'Questrial', sans-serif;
+font-family: 'Questrial', sans-serif;
 }
 
 h1,
@@ -77,6 +77,9 @@ ol {
   display: inline;
 }
 
+.container {
+  padding: 40px 0 30px 0;
+}
 /*------------------------
   Common Elements
 --------------------------*/
@@ -394,9 +397,10 @@ ol {
 /*------------------------
     Intro Section
 --------------------------*/
-.intro-section {
-  padding: 20px 0 20px 0;
+.intro-section .about-section .portfolio-section {
+  padding: 40px 0 40px 0;
 }
+
 /*------------------------
     Portfolio Section
 --------------------------*/
