@@ -398,10 +398,6 @@ ol {
 /*------------------------
     Portfolio Section
 --------------------------*/
-.portfolio-section {
-  overflow: hidden;
-}
-
 .portfolio-filter {
   list-style: none;
   padding-bottom: 100px;
@@ -420,77 +416,15 @@ ol {
   color: #001418;
 }
 
-.portfolios-area .gallery-block {
-  padding: 0;
+.portfolio-odd {
+  float: left;
+
 }
 
-.gallery-block {
-  position: relative;
-}
+.portfolio-even {
+  float: right;
 
-.portfolio-item {
-  display: block;
-  width: 100%;
-  height: 600px;
-  background-position: center center;
-  position: relative;
-  margin-bottom: 30px;
 }
-
-.portfolio-item .pi-inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: transparent;
-  -webkit-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-
-.portfolio-item .pi-inner h2 {
-  opacity: 0;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 50px;
-  bottom: 50px;
-  color: #fff;
-  letter-spacing: 10px;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.portfolio-item:hover .pi-inner {
-  background: rgba(0, 20, 24, 0.8);
-}
-
-.portfolio-item:hover .pi-inner h2 {
-  opacity: 1;
-  letter-spacing: 0;
-}
-
-.portfolio-meta {
-  padding-left: 20px;
-  padding-bottom: 45px;
-}
-
-.portfolio-meta h2 {
-  font-size: 24px;
-}
-
-.portfolio-meta p {
-  font-size: 14px;
-  color: #a6a6a6;
-  margin-bottom: 0;
-}
-
-.portfolio-intro {
-  display: block;
-}
-
 
 /*------------------------
     Footer Section
