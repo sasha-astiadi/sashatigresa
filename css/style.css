@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-font-family: 'Questrial', sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 
 h1,
@@ -15,6 +15,7 @@ h6 {
   font-weight: 600;
   font-family: 'Questrial', sans-serif;
 }
+
 
 p {
   font-size: 18px;
@@ -47,12 +48,14 @@ ol {
   margin: 0;
 }
 
+
 /*------------------------
   Helper css
 --------------------------*/
 .body-pad {
   padding: 0 40px;
 }
+
 
 .spad {
   padding: 100px 0;
@@ -67,6 +70,7 @@ ol {
   background-size: cover;
 }
 
+
 .section-title {
   font-size: 50px;
   display: inline;
@@ -77,8 +81,18 @@ ol {
   display: inline;
 }
 
-.container {
-  padding: 40px 0 30px 0;
+.giant-heaading h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1a1a1a;
+    font-size: 43vh;
+    line-height: 43vh;
+    text-align: right;
+}
 }
 /*------------------------
   Common Elements
@@ -117,6 +131,7 @@ ol {
   -webkit-animation: loader 0.8s linear infinite;
 }
 
+
 @keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
@@ -144,6 +159,7 @@ ol {
   }
 }
 
+
 /*=== Buttons ===*/
 .site-btn {
   display: inline-block;
@@ -158,6 +174,8 @@ ol {
   background-color: #f53f7a;
   z-index: 1;
 }
+
+
 
 .site-btn.btn-fade {
   display: inline-block;
@@ -397,10 +415,9 @@ ol {
 /*------------------------
     Intro Section
 --------------------------*/
-.intro-section .about-section .portfolio-section {
-  padding: 40px 0 40px 0;
+.intro-section {
+  padding: 20px 0 20px 0;
 }
-
 /*------------------------
     Portfolio Section
 --------------------------*/
@@ -422,15 +439,6 @@ ol {
   color: #001418;
 }
 
-.portfolio-odd {
-  float: left;
-
-}
-
-.portfolio-even {
-  float: right;
-
-}
 
 /*------------------------
     Footer Section
@@ -463,7 +471,8 @@ ol {
 }
 
 .pic-frame img {
-  padding-top:10px;
+  padding-top:20px;
+  max-width: 90%;
 }
 
 
@@ -489,18 +498,7 @@ ol {
   padding: 20px 0 10px 0;
 }
 
-.range-work ul {
-float: left;
-width: 50%;
-display: inline;
-padding-left: 20px;
-}
 
-.range-work2 ul {
-float: right;
-width: 50%;
-display: inline;
-}
 
 /*------------------------
     Contact Page
@@ -576,6 +574,14 @@ display: inline;
     text-align: center;
 
   }
+
+
+    .pic-frame img {
+      max-width: 90%;
+      align-items: center;
+      position: relative;
+      padding: 30px 15px 0 30px;
+    }
 }
 
 /* Medium screen : 992px. */
@@ -584,24 +590,21 @@ display: inline;
     height: 450px;
   }
 
-  .pic-frame {
-    position: relative;
-    display: contents;
-    float: right;
-  }
-
   .pic-frame img {
     max-width: 90%;
-    padding-top: 70px;
+    align-items: center;
+    position: relative;
+    padding: 30px 15px 0 30px;
   }
+
 
   .page-section {
     text-align: left;
   }
 
   .page-section p {
-    line-height: 1.5em;
-    font-size: 24px;
+    line-height: 1.3em;
+    font-size: 16px;
     padding-right: 20px;
   }
 
@@ -610,44 +613,30 @@ display: inline;
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-  .body-pad {
-    padding: 0 30px;
-  }
-
-  .portfolio-item {
-    height: 350px;
-  }
-
-  .section-title {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  .pic-frame {
-    position: relative;
-    display: contents;
-    float: right;
-  }
-
-  .pic-frame img {
-      max-width: 95%;
-      padding-top: 30px;
-      padding-bottom: 20px;
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .portfolio-item {
+      height: 450px;
     }
 
-  .page-section {
-    text-align: left;
-    padding-right: 20px;
-  }
+    .pic-frame img {
+      max-width: 75%;
+      align-items: center;
+      position: relative;
+      padding: 30px 15px 0 110px;
+    }
 
-  .page-section p {
-    font-size: 17px;
-    line-height: 1.2em;
-    padding-right: 20px;
+    .page-section {
+      text-align: left;
+    }
+
+    .page-section p {
+      line-height: 1.3em;
+      font-size: 16px;
+      padding-right: 20px;
+    }
+
+
   }
-}
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
@@ -712,21 +701,7 @@ display: inline;
     text-align: center;
   }
 
-  .pic-frame {
-    position: relative;=
-    float: center;
-    max-width: 70%;
-    padding-bottom: 25px;
-    padding-right: 0;
-    padding-left: 85px;
-  }
 
-
-    .pic-frame {
-      max-width: 70%;
-      padding: 0 20px;
-      align-items: center;
-    }
 
     .page-section {
       text-align: center;
@@ -761,31 +736,59 @@ display: inline;
     max-width: 70%;
     padding: 10px;
   }
+
+  .pic-frame img {
+    max-width: 75%;
+    align-items: center;
+    position: relative;
+    padding: 30px 15px 0 110px;
+  }
+
+    .page-section {
+      text-align: center;
+      padding: 10px 0 0 0;
+      }
+
+    p {
+      font-size: 14px;
+      line-height: 1.3em;
+      text-align: center;
+      padding: 10px 35px 0 35px;
+    }
+
+      .contect-tect p {
+        font-size: 14px;
+        line-height: 1.3em;
+      }
+
+
 }
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
 
-  .section-title {
-    font-size: 23px;
+  .section-title h3 {
+    font-size: 20px;
     text-align: center;
+    padding: 20px;
   }
 
   .pic-frame {
     max-width: 100%;
     align-items: center;
     position: relative;
-    padding: 0 30px;
+    padding: 10px 20px 0 25px;
   }
 
   .page-section {
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 10px 0 0 0;
     }
 
-  .page-section p {
-    font-size: 14.5px;
+  p {
+    font-size: 13.5px;
     line-height: 1.2em;
+    text-align: center;
+    padding: 10px 20px 0 20px;
   }
 
   .content-section  {
@@ -814,4 +817,20 @@ display: inline;
     padding: 10px;
   }
 
+.blog-item img {
+  padding: 0;
+}
+.blog-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f53f7a;
+  }
+
+  article {
+    padding: 0 0 20px 0;
+  }
+
+  .contect-tect p {
+    font-size: 13.5px;
+  }
 }
