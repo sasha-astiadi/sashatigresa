@@ -16,3 +16,5 @@ navigation, header, about, project, contact and footer sections
 
 blog page (linked via index/#portfolio)
 navigation, header, blog content, footer.
+
+please see SCRIBBLES folder for sketches and web responsive planning process.
