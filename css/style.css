@@ -494,6 +494,10 @@ ol {
   padding-right: 20px;
 }
 
+.giant-heading {
+  padding: 20px 0;
+}
+
 /*------------------------
     Content Page
 --------------------------*/
@@ -791,18 +795,20 @@ display: inline;
     max-width: 100%;
     align-items: center;
     position: relative;
-    padding: 0 30px;
+    padding: 0 1.250em 0.625em 4em;
   }
 
   .page-section {
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
     }
 
   .page-section p {
-    font-size: 14.5px;
+    font-size: 0.875em;
     line-height: 1.2em;
+      text-align: center;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
   }
 
   .content-section  {
@@ -830,5 +836,9 @@ display: inline;
     max-width: 70%;
     padding: 10px;
   }
+
+.thumb img {
+  padding-top: 1.250em;
+}
 
 }
