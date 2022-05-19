@@ -325,6 +325,7 @@ html, body {
   line-height: 14px;
   color: #ffffff;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
   border-bottom: 2px solid transparent;
   -webkit-transition: border-color 0.25s ease-in-out;
   -o-transition: border-color 0.25s ease-in-out;
@@ -457,6 +458,8 @@ html, body {
   text-align: center;
   margin: 0 auto;
   text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.1em;
 }
 
 .hero-content p {
@@ -464,20 +467,25 @@ html, body {
   margin: 30px auto 0;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.15em;
 }
 
 .hero-content .hero-job {
   font-size: 18px;
+  letter-spacing: 0.15em;
+  font-weight: 900;
 }
 
 .hero-content .hero-job span {
   padding-bottom: 5px;
-  border-bottom: 1px solid #051F1E;
 }
 
 .hero-content .hero-job-desc {
   font-size: 14px;
   max-width: 700px;
+  letter-spacing: 0.15em;
+  font-weight: 900;
 }
 
 .hero-arrow {
