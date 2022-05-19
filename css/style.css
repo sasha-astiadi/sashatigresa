@@ -325,7 +325,8 @@ html, body {
   line-height: 14px;
   color: #ffffff;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
+  font-weight: 900;
+  border-bottom: 0px solid transparent;
   -webkit-transition: border-color 0.25s ease-in-out;
   -o-transition: border-color 0.25s ease-in-out;
   -moz-transition: border-color 0.25s ease-in-out;

@@ -326,6 +326,7 @@ html, body {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-weight: 900;
   border-bottom: 2px solid transparent;
   -webkit-transition: border-color 0.25s ease-in-out;
   -o-transition: border-color 0.25s ease-in-out;
@@ -1036,7 +1037,7 @@ html, body {
 }
 
 .portfolio-sorting li a:hover:after, .portfolio-sorting li a.active:after {
-  border-color: #FFFFFF;
+  border-color: #051F1E;
 }
 
 .portfolio-sorting li a:after, .portfolio-sorting li a.acitve:after {
