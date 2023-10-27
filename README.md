@@ -1,3 +1,3 @@
 
-[sashatigresa.bio](sashatigresa.bio)
-Author: Sasha Tigresa
+[sashatigresa.bio](sashatigresa.bio) <br>
+by Sasha Tigresa, 2023
