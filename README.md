@@ -1,3 +1,3 @@
 
-Version: 1
-Author: Sasha Astiadi
+sashatigresa.bio
+Author: Sasha Tigresa
