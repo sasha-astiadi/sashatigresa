@@ -1,3 +1,3 @@
 
-Version: 1
-Author: Sasha Astiadi
+[sashatigresa.bio](https://sashatigresa.bio) <br>
+by Sasha Tigresa, 2023
