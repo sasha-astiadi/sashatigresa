@@ -321,12 +321,12 @@ html, body {
 
 .site-navigation .navbar-nav > li > a {
   padding: 0px 3px 21px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 14px;
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 900;
+  font-weight: 600;
   border-bottom: 2px solid transparent;
   -webkit-transition: border-color 0.25s ease-in-out;
   -o-transition: border-color 0.25s ease-in-out;
@@ -457,7 +457,7 @@ html, body {
   width: 100%;
   padding: 0 15px;
   font-size: 60px;
-  font-weight: 1000;
+  font-weight: 800;
   text-align: center;
   margin: 0 auto;
   text-transform: uppercase;
@@ -470,7 +470,7 @@ html, body {
   margin: 30px auto 0;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
   letter-spacing: 0.1em;
 }
 
@@ -593,12 +593,12 @@ html, body {
   }
 
   .hero-content h1 {
-    font-size: 14px;
+    font-size: 19px;
     padding: 0 20px;
   }
   .hero-content p {
     margin: 20px;
-    font-size: 15px;
+    font-size: 17px;
   }
   .hero-content a {
     font-size: 17px;
@@ -758,9 +758,9 @@ s
 
 .main-service h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-service p {
@@ -785,7 +785,7 @@ s
     padding: 20px 0;
   }
   .main-service h3 {
-    font-size: 14px;
+    font-size: 17px;
   }
   .main-service.text-right {
     padding-right: 75px;
@@ -831,7 +831,7 @@ s
 .feature-about h3 {
   margin: 50px 0 0;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
