@@ -471,13 +471,13 @@ html, body {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
 }
 
 .hero-content .hero-job {
-  font-size: 18px;
-  letter-spacing: 0.15em;
-  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
 }
 
 .hero-content .hero-job span {
@@ -485,10 +485,10 @@ html, body {
 }
 
 .hero-content .hero-job-desc {
-  font-size: 14px;
+  font-size: 25px;
   max-width: 700px;
-  letter-spacing: 0.15em;
-  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-weight: 500;
 }
 
 .hero-arrow {
@@ -588,14 +588,25 @@ html, body {
 @media only screen and (max-width: 767px) {
   /* HEADER */
   /* HERO */
+  .hero-job {
+    margin: 0px 20px;
+  }
+
   .hero-content h1 {
-    font-size: 32px;
+    font-size: 14px;
+    padding: 0 20px;
   }
   .hero-content p {
-    margin: 20px auto 0;
+    margin: 20px;
+    font-size: 15px;
+  }
+  .hero-content a {
+    font-size: 17px;
+    line-height: -0.8em;
   }
 }
 
+s
 /* SITEMAIN
 ================================================== */
 .site-main {
@@ -614,6 +625,7 @@ html, body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   font-size: 32px;
+  font-weight: bold;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
