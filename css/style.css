@@ -17,7 +17,9 @@ a, button {
 
 a:hover, a:focus {
   outline: 0 none;
-  text-decoration: underline;;
+  text-decoration: underline;
+  color:#f7315c
+
 }
 
 /* LAYOUT
