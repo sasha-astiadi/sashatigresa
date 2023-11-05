@@ -1389,9 +1389,9 @@ html, body {
 }
 
 .modal-footer .btn:hover {
-  background-color: #000000;
-  color: #ffffff;
-  border-color: #ffffff;
+  background-color: #f7315c;
+  color: #fff;
+  border-color: #f7315c;
 }
 
 .modal-content {
